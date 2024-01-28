@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    color: white !important;
+    opacity: 1 !important;
+    border-bottom: 5px solid #F9BF29 !important;
+}

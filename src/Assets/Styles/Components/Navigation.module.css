@@ -1,0 +1,76 @@
+.header_Nav {
+    background-color: #3B5D50;
+}
+
+.logo_heading {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+.Dot {
+    color: #899E96;
+    font-size: 47px;
+}
+
+.menu_div {
+    width: 60%;
+    padding-top: 25px;
+    align-items: flex-start;
+}
+
+.menu_Bar {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.menu_Bar li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu_Bar li a {
+    color: rgba(255, 255, 255, .55);
+    text-decoration: none;
+    opacity: .5;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu_Bar li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #F9BF29;
+    transition: width 0.3s;
+}
+
+.menu_Bar li a:hover {
+    color: white;
+    opacity: 1;
+}
+
+.menu_Bar li:hover::before {
+    width: 100%;
+    color: white;
+    opacity: 1;
+}
+
+.profile {
+    color: white;
+    width: 10%;
+}
+
+.cart {
+    color: white;
+}
+
+.logo_div {
+    display: flex;
+    align-items: baseline;
+    width: 50%;
+}
