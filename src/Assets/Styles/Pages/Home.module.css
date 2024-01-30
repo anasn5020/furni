@@ -1,0 +1,75 @@
+.home_page_hero {
+    width: 100%;
+    background-color: #3B5D50;
+}
+
+.home_hero_heading_box {
+    margin-top: 80px;
+}
+
+.home_hero_heading_box h1 {
+    font-size: 54px;
+    color: white;
+    font-weight: 700;
+}
+
+.home_hero_heading_box p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+.home_hero_btns_div {
+    display: flex;
+    gap: 10px;
+}
+
+.home_hero_shop_now_btn {
+    border: none;
+    align-self: center;
+    border-radius: 30px;
+    background-color: #F9BF29;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.home_hero_shop_now_btn:hover {
+    background-color: #e9b125;
+    color: black;
+}
+
+.home_hero_explore_btn {
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: white;
+    transition: all 0.5s ease;
+    gap: 3px;
+}
+
+.home_hero_explore_btn:hover {
+    border-color: white;
+}
+
+.home_page_hero_img_box {
+    position: relative;
+    z-index: 1;
+}
+
+.home_page_hero_img_box::after {
+    content: url('https://themewagon.github.io/furni/images/dots-light.svg');
+    position: absolute;
+    top: 55px;
+    right: -60px;
+    z-index: 0;
+}
+
+.home_page_hero_img_box img {
+    z-index: 1;
+    position: relative;
+}
