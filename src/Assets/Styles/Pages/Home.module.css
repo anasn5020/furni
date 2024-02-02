@@ -1,3 +1,7 @@
+body {
+    background-color: #EFF2F1;
+}
+
 .home_page_hero {
     width: 100%;
     background-color: #3B5D50;
@@ -72,4 +76,34 @@
 .home_page_hero_img_box img {
     z-index: 1;
     position: relative;
+}
+
+.products_home_section {
+    margin-top: 100px;
+}
+
+.craft_heading {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.craft_description {
+    font-size: 14px;
+}
+
+.craft_button {
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgb(43, 42, 42);
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.craft_button:hover {
+    background-color: black;
 }
