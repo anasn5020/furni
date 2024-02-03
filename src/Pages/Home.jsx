@@ -2,6 +2,8 @@ import React from 'react';
 import Style from '../Assets/Styles/Pages/Home.module.css';
 import hero_img from '../Assets/Images/Main_images/couch.png';
 import ProductCard from '../Components/productCard';
+import Featured from '../Components/Featured';
+import whyChoose_img from '../Assets/Images/images/why-choose-us-img.jpg';
 
 const Home = () => {
     return (
@@ -38,6 +40,42 @@ const Home = () => {
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-3">
                         <ProductCard name="Ergonomic Chair" price="43" image="https://themewagon.github.io/furni/images/product-3.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div className={`${Style.whyChooseUsContainer} container`}>
+                <div className="row">
+                    {/* COL # 1 */}
+                    <div className="col-sm-12 col-md-12 col-lg-6">
+                        <div className="row">
+                            <div className="col">
+                                <h1 className={`${Style.choose_heading}`}>Why Choose Us</h1>
+                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                            </div>
+                        </div>
+                        {/* ***************************** */}
+                        <div className="row">
+                            <div className="col mt-4">
+                                <Featured heading="Fast & Free Shipping" description="Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate." icon="https://themewagon.github.io/furni/images/truck.svg" />
+                            </div>
+                            <div className="col mt-4">
+                                <Featured heading="Easy to Shop" description="Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate." icon="https://themewagon.github.io/furni/images/bag.svg" />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col mt-4">
+                                <Featured heading="24/7 Support" description="Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate." icon="https://themewagon.github.io/furni/images/support.svg" />
+                            </div>
+                            <div className="col mt-4">
+                                <Featured heading="Hassle Free Returns" description="Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate." icon="https://themewagon.github.io/furni/images/return.svg" />
+                            </div>
+                        </div>
+                        {/* ********************************* */}
+                    </div>
+                    {/* COL # 2 */}
+                    <div className={`${Style.whyChooseImageContainer} col-sm-12 col-md-12 col-lg-6 text-end`}>
+                        <img src={whyChoose_img} alt="" className={`${Style.whyChooseimage} img-fluid`} />
                     </div>
                 </div>
             </div>

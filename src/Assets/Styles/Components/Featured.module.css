@@ -1,0 +1,22 @@
+.featuredIcons{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+.featuredIcons::before{
+    content: "";
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    right: -8px;
+    bottom: 0px;
+    background: rgba(59, 93, 80, 0.2);
+    border-radius: 50%;
+}
+.featured h3{
+    font-size: 14px;
+}
+.featured p{
+    font-size: 14px;
+    color: rgb(106 106 106);
+}

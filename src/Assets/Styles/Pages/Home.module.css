@@ -76,6 +76,7 @@ body {
 .home_page_hero_img_box img {
     z-index: 1;
     position: relative;
+    width: 100%;
 }
 
 .products_home_section {
@@ -106,4 +107,36 @@ body {
 
 .craft_button:hover {
     background-color: black;
+}
+
+.whyChooseUsContainer {
+    margin-top: 150px;
+}
+
+.choose_heading {
+    font-size: 32px;
+}
+
+.whyChooseimage {
+    border-radius: 20px;
+    width: 80%;
+    text-align: end;
+}
+
+.whyChooseImageContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.whyChooseImageContainer img {
+    position: relative;
+    z-index: 1;
+}
+
+.whyChooseImageContainer::before {
+    content: url('https://themewagon.github.io/furni/images/dots-yellow.svg');
+    position: absolute;
+    top: -88px;
+    left: 35px;
+    z-index: 0;
 }
