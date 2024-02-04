@@ -4,6 +4,10 @@ import hero_img from '../Assets/Images/Main_images/couch.png';
 import ProductCard from '../Components/productCard';
 import Featured from '../Components/Featured';
 import whyChoose_img from '../Assets/Images/images/why-choose-us-img.jpg';
+import gridOneImage from '../Assets/Images/images/grid1Image.jpg';
+import gridTwoImage from '../Assets/Images/images/img-grid-2.jpg';
+import gridThreeImage from '../Assets/Images/images/img-grid-3.jpg';
+import HomeCardComponent from '../Components/HomeCardComponents';
 
 const Home = () => {
     return (
@@ -76,6 +80,67 @@ const Home = () => {
                     {/* COL # 2 */}
                     <div className={`${Style.whyChooseImageContainer} col-sm-12 col-md-12 col-lg-6 text-end`}>
                         <img src={whyChoose_img} alt="" className={`${Style.whyChooseimage} img-fluid`} />
+                    </div>
+                </div>
+            </div>
+
+            <div className={`${Style.helpYouContainer} container`}>
+                <div className="row">
+                    <div className="col-sm-12 col-md-12 col-lg-7">
+                        <div className={`${Style.ImagesGrid}`}>
+                            <div className={`${Style.gridOne}`}>
+                                <img src={gridOneImage} alt="" />
+                            </div>
+                            <div className={`${Style.gridTwo}`}>
+                                <img src={gridTwoImage} alt="" />
+                            </div>
+                            <div className={`${Style.gridThree}`}>
+                                <img src={gridThreeImage} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-5">
+                        <h1 className={`${Style.helpYouSectionHeading} mb-4`}>We Help You Make Modern Interior Design</h1>
+                        <p className={`${Style.HelpYouSectionPara} mb-4`}>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                        <div className="row">
+                            <div className="col">
+                                <ul className={`${Style.UlKeyPoints}`}>
+                                    <li className='text-gray'>Donec vitae odio quis nisl dapibus malesuada</li>
+                                </ul>
+                            </div>
+                            <div className="col">
+                                <ul className={`${Style.UlKeyPoints}`}>
+                                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="row mb-5">
+                            <div className="col">
+                                <ul className={`${Style.UlKeyPoints}`}>
+                                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                                </ul>
+                            </div>
+                            <div className="col">
+                                <ul className={`${Style.UlKeyPoints}`}>
+                                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="/home" className={`${Style.helpYouButton} mt-4`}>Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className={`${Style.productCardSection} container`}>
+                <div className="row">
+                    <div className="col-sm-12 col-md-12 col-lg-4">
+                        <HomeCardComponent name="Nordic Chair" image="https://themewagon.github.io/furni/images/product-1.png" description="Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"/>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-4">
+                        <HomeCardComponent name="Kruzo Aero Chair" image="https://themewagon.github.io/furni/images/product-2.png" description="Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"/>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-4">
+                        <HomeCardComponent name="Ergonomic Chair" image="https://themewagon.github.io/furni/images/product-3.png" description="Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"/>
                     </div>
                 </div>
             </div>

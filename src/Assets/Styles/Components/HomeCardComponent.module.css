@@ -1,0 +1,37 @@
+.thumbnail{
+    position: relative;
+}
+.thumbnail::before{
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    background: #dce5e4;
+    width: 98px;
+    height: 98px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.heading{
+    font-size: 14px;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+.Description{
+    line-height: 1.4;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.readmoreButton{
+    text-decoration: none;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #2f2f2f;
+}
+.DescriptionBox{
+    padding: 10px;
+}

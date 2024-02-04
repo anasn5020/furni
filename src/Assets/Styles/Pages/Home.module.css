@@ -140,3 +140,92 @@ body {
     left: 35px;
     z-index: 0;
 }
+.helpYouContainer{
+    margin-top: 200px;
+}
+.ImagesGrid{
+    display: grid;
+    grid-template-columns: repeat(27, 1fr);
+    position: relative;
+}
+.ImagesGrid::before{
+    position: absolute;
+    content: "";
+    width: 255px;
+    height: 217px;
+    background-image: url("https://themewagon.github.io/furni/images/dots-green.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+    z-index: -1;
+}
+.gridOne{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 18;
+    grid-column: 1 / span 18;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 27;
+    grid-row: 1 / span 27;
+}
+.gridOne img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+.gridTwo{
+    -ms-grid-column: 19;
+    -ms-grid-column-span: 27;
+    grid-column: 19 / span 27;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    grid-row: 1 / span 5;
+    padding-left: 20px;
+}
+.gridTwo img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+.gridThree{
+    -ms-grid-column: 14;
+    -ms-grid-column-span: 16;
+    grid-column: 14 / span 16;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 27;
+    grid-row: 6 / span 27;
+    padding-top: 20px;
+}
+.gridThree img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+/* **************** */
+.helpYouSectionHeading{
+    font-size: 32px;
+}
+.HelpYouSectionPara{
+    line-height: 28px;
+    color: #6a6a6a;
+}
+.UlKeyPoints{
+    padding-left: 1rem !important;
+    color: #6a6a6a;
+}
+.helpYouButton{
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgb(43, 42, 42);
+    color: white;
+    transition: all 0.5s ease;
+}
+.helpYouButton:hover {
+    background-color: black;
+}
+.productCardSection{
+    margin-top: 135px;
+}
