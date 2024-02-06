@@ -8,6 +8,7 @@ import Blog from './Pages/Blog.jsx';
 import Contact from './Pages/Contact.jsx';
 import Navigation from './Components/Navigation.jsx';
 import './Assets/Styles/Pages/App.css';
+import Footer from './Components/Footer.jsx';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route exact path='/blog' Component={Blog} />
           <Route exact path='/contact' Component={Contact} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   )

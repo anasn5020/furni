@@ -42,3 +42,13 @@
 .authorDetails {
     margin-top: 15px;
 }
+
+@media screen and (max-width:768px) {
+    .quote{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .authorImage {
+        width: 25%;
+    }
+}

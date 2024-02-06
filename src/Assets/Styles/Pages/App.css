@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-width: 320px;
+}
 
 .active {
     color: white !important;

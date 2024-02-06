@@ -4,7 +4,7 @@ import Style from '../Assets/Styles/Components/HomeCardComponent.module.css';
 const HomeCardComponent = (props) => {
     return (
         <>
-            <div className="row">
+            <div className="row align-items-center">
                 <div className="col-4">
                     <div className={`${Style.thumbnail}`}>
                         <img src={props.image} className='img-fluid' alt="" />

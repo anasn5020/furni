@@ -1,0 +1,30 @@
+.BlogCardImageA img {
+    width: 100%;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.BlogCardImageA img:hover {
+    opacity: .6;
+}
+
+.BlogCardDetails {
+    padding: 15px;
+}
+
+.BlogCardDescription {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+.BlogCardDescription a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.BlogCardHeading {
+    font-size: 16px;
+    font-weight: 600;
+}

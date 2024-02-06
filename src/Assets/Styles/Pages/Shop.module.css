@@ -1,0 +1,14 @@
+.mainHero{
+    background-color: #3B5D50;
+    width: 100%;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.mainHero h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+.productSection{
+    margin-top: 70px;
+}
