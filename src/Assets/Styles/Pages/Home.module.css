@@ -229,3 +229,36 @@ body {
 .productCardSection{
     margin-top: 135px;
 }
+/* ************************** */
+.CarouselBox{
+    margin-top: 150px;
+}
+.testimonalHeading{
+    text-align: center;
+    font-size: 32px;
+}
+/* ************************** */
+.recentBlogs{
+    margin-top: 150px;
+}
+.recentBlogsMainHeadingBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recentBlogsHeading{
+    font-size: 32px;
+}
+.recentBlogsAchor{
+    text-decoration: none;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #2f2f2f;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+.recentBlogsAchor:hover{
+    text-decoration: none;
+}

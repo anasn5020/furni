@@ -8,6 +8,7 @@ import gridOneImage from '../Assets/Images/images/grid1Image.jpg';
 import gridTwoImage from '../Assets/Images/images/img-grid-2.jpg';
 import gridThreeImage from '../Assets/Images/images/img-grid-3.jpg';
 import HomeCardComponent from '../Components/HomeCardComponents';
+import TestimonalsCarousel from '../Components/TestimonalsCarousel';
 
 const Home = () => {
     return (
@@ -142,6 +143,18 @@ const Home = () => {
                     <div className="col-sm-12 col-md-12 col-lg-4">
                         <HomeCardComponent name="Ergonomic Chair" image="https://themewagon.github.io/furni/images/product-3.png" description="Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"/>
                     </div>
+                </div>
+            </div>
+
+            <div className={`${Style.CarouselBox} container`}>
+                <h1 className={`${Style.testimonalHeading}`}>Testimonals</h1>
+                <TestimonalsCarousel />
+            </div>
+
+            <div className={`${Style.recentBlogs} container`}>
+                <div className={`${Style.recentBlogsMainHeadingBox}`}>
+                <h1 className={`${Style.recentBlogsHeading}`}>Recent Blog</h1>
+                <p className={`${Style.recentBlogsAchor}`}>View ALl Posts</p>
                 </div>
             </div>
             <h1>Home Page</h1>
