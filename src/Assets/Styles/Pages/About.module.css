@@ -1,0 +1,123 @@
+body {
+    background-color: #EFF2F1;
+}
+
+.mainHero {
+    width: 100%;
+    background-color: #3B5D50;
+}
+
+.descriptionBox {
+    margin-top: 80px;
+}
+
+.mainHeading {
+    color: white;
+    font-size: 54px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.mainDescription {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+.home_hero_btns_div {
+    display: flex;
+    gap: 10px;
+}
+
+.heroShopNowBtn {
+    border: none;
+    align-self: center;
+    border-radius: 30px;
+    background-color: #F9BF29;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.heroShopNowBtn:hover {
+    background-color: #e9b125;
+    color: black;
+}
+
+.heroExploreBtn {
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: white;
+    transition: all 0.5s ease;
+    gap: 3px;
+}
+
+.heroExploreBtn:hover {
+    border-color: white;
+    color: white;
+}
+
+.heroImgBox {
+    position: relative;
+    z-index: 1;
+}
+
+.heroImgBox::after {
+    content: url('https://themewagon.github.io/furni/images/dots-light.svg');
+    position: absolute;
+    top: 55px;
+    right: -60px;
+    z-index: 0;
+}
+
+.heroImgBox img {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+.whyChooseUsContainer {
+    margin-top: 150px;
+}
+
+.choose_heading {
+    font-size: 32px;
+}
+
+.whyChooseimage {
+    border-radius: 20px;
+    width: 80%;
+    text-align: end;
+}
+
+.whyChooseImageContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.whyChooseImageContainer img {
+    position: relative;
+    z-index: 1;
+}
+
+.whyChooseImageContainer::before {
+    content: url('https://themewagon.github.io/furni/images/dots-yellow.svg');
+    position: absolute;
+    top: -88px;
+    left: 35px;
+    z-index: 0;
+}
+
+.ourTeamContainer {
+    margin-top: 150px;
+}
+
+.ourTeamHeading {
+    text-align: center;
+    font-size: 32px;
+}

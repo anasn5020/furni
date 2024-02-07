@@ -1,0 +1,49 @@
+.teamCard {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.teamCard img {
+    width: 100%;
+}
+
+.teamCardName {
+    text-decoration: underline;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.teamCardName:hover {
+    text-decoration: none;
+}
+
+.teamCardDesignation {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+.teamCardDescription {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6a6a6a;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.teamCardLearnMore {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+.teamCardLearnMore:hover {
+    text-decoration: none;
+}
